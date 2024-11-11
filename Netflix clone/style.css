@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap') * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+
+}
+
+.main {
+    background-image: url("assets/img/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+    height: 70vh;
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    max-width: 60vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+}
+
+nav img {
+    color: red;
+    width: 115px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    gap: 23px;
+    padding: 0 30px;
+
+}
+
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :second-child {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :third-child {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(248, 243, 243, 0.021);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 8px 30px;
+    font-size: 36px;
+    border-radius: 4px;
+    padding: 3px 8px;
+    font-weight: 400;
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input{
+    padding: 20px 15px 8px 14px;
+    font-size: 25px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23,  0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color: white;
+
+}
+
